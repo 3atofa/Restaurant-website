@@ -14,6 +14,10 @@ body {
   width: 100%;
 }
 
+.navbar-brand {
+  font-size: 30px !important;
+}
+
 .header {
   padding: 30px 0;
   position: fixed;
@@ -73,6 +77,7 @@ body {
   height: 2.5px;
   background-color: rgb(211, 14, 14);
   transition: width 0.3s ease;
+   font-family: "Amatic SC", sans-serif !important;
 }
 
 .list ul a:hover::after {
@@ -411,17 +416,17 @@ h2.head span{
   font-size: 2.5rem;
   background-color: hsl( 0, 84%, 44% );
   color: #ffffff;
-  padding: 15px;
+  padding: 10px 12px;
   border-radius: 50%;
 }
 
 .item1 h3{
-  font-size: 3rem;
+  font-size: 2rem;
   color: #000000;
 } 
 
 .item1 p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #37373f;
 }
 
